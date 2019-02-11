@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+       
+       
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet"> 
+        
+        
+        
+        <script src="js/index.js" type="text/javascript"></script>
+        
+        
+        
+        
+    </head>
+
+
+
+
+
+    <body>
+        <div id="header" class="header">
+
+            <ul>
+                <li>Columnas:</li>
+                <li><input id="colum" name="colum" ></li>
+                <li style="margin-left: 5%;">Filas:</li>
+                <li><input id="fila" name="fila"></li>
+            </ul>
+                <ul>
+                <li><button onclick ="crearTabla()"><img src="img/reboot.png" alt=""/></button></li>
+                
+                
+                <li><button type="button" id="inicio" onclick ="nextGen()" value="Iniciar Vida"><img src="img/play.png" alt=""/></button></li>
+               
+                <li><button type="button" id="stop" onclick ="stop()" value="Stop"><img src="img/stop.png" alt=""/></button></li>
+                
+            </ul>
+
+            <ul>
+                <li>Generación<p  id="gen"></p></li>
+
+                <li style="margin-left: 15%;">Células Vivas<p id="nCelulasVivas"></p></li>
+
+
+            </ul>
+        </div>
+
+
+    <div id="tabla">
+
+        </div>
+
+    </body>
+</html>

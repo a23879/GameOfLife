@@ -1,0 +1,101 @@
+body{
+
+   
+    background-color: #222930;
+    font-family: 'Staatliches', cursive;
+
+}
+div.header{
+
+    text-align: center;
+    margin:-1%;
+    padding-top: 2%;
+    background-color: #222930;
+
+    color: #E9E9E9;
+    
+    border-bottom-style: solid;
+    border-bottom-color: #8CE8EE;
+
+}
+
+div table{
+
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+
+
+input{
+
+    opacity: 0.5;
+    border-radius: 3px;
+    margin-left: 1%;
+    width: 70px;
+
+}
+
+input #fila{
+    
+    margin-left: -0.5;
+    
+}
+
+
+
+
+li, p {
+    display: inline;
+    
+}
+
+p{
+
+    padding-left: 15px;
+
+}
+
+img{
+    
+    height: 25px; 
+    width: 25px;
+    
+}
+
+    
+
+
+
+/*TABLE*/
+
+td.viva {
+    
+/*    background-color: #57EB57;*/
+
+    background-color: #8CE8EE;
+
+}
+
+td.muerta{
+
+    background-color: #2f4858;
+
+}
+
+div table{
+
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+td {
+    padding: 0px;
+    width: 10px;
+    height: 10px;
+
+    border-radius: 5px;
+}
+
